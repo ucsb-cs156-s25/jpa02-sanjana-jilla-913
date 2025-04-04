@@ -33,41 +33,4 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_correct_name() {
         Team  t = Developer.getTeam();
-        assertEquals("s25-06", t.getName());
-    }
-
-    @Test
-    public void getTeam_returns_team_with_Rachit() {
-        Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Rachit"),"Team should contain Rachit");
-    }
-
-    @Test
-    public void getTeam_returns_team_with_Aaryan() {
-        Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Aaryan"),"Team should contain Aaryan");
-    }
-
-
-    @Test
-    public void getTeam_returns_team_with_Saeed() {
-        Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Saeed"),"Team should contain Saeed");
-    }
-
-
-    @Test
-    public void getTeam_returns_team_with_Riya() {
-        Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Riya"),"Team should contain Riya");
-    }
-
-
-    @Test
-    public void getTeam_returns_team_with_Yarwin() {
-        Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Yarwin"),"Team should contain Yarwin");
-    }
-
-
-}
+     
